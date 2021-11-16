@@ -47,6 +47,14 @@ export const Btn = styled.button`
     padding: 0.4vw;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #F2DBF0;
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+          font-weight: bold;
+    }
 `
 export const carticon = styled.img`
     width: 1.5vw;
@@ -54,6 +62,14 @@ export const carticon = styled.img`
     margin-left: 0.5vw;
     position: relative;
     left:;   
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #F2DBF0;
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+          font-weight: bold;
+    }
 `
 export const divider = styled.div`
     width: 85%;
@@ -64,6 +80,14 @@ export const divider = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #F2DBF0;
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+          font-weight: bold;
+    }
 `
 export const P = styled.div`
     height: 1.1vw;
@@ -98,4 +122,12 @@ export const divider2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #fff;
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+          font-weight: bold;
+    }
 `

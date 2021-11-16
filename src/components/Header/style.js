@@ -23,9 +23,11 @@ export const Line1Right = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 `
 export const img = styled.img`
     margin-right: 1vw;
+    cursor: pointer;
 `
 export const p = styled.p`
     margin-right: 3vw;
@@ -44,11 +46,13 @@ export const logo = styled.img`
 export const searchbar = styled.div`
     display: flex;
     align-items: center;
+    
 `
 export const searchicon = styled.img`
     width: 1.8vw;
     position: relative;
     left: 2.2vw;
+    cursor: pointer;
 `
 export const input = styled.input`
     display: flex;
@@ -71,6 +75,10 @@ export const HeaderLine3 = styled.div`
 export const p2 = styled.p`
     margin-right: 2vw;
     font-size: 1.2vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+    }
 `
 export const img2 = styled.img`
     width: 13vw;
@@ -116,6 +124,7 @@ export const SubTitle = styled.h2`
 export const BuyBtn = styled.div`
     display: flex;
     align-items: center;
+    cursor: pointer;
 `
 export const Btn = styled.button`
     background-color: #fff;
@@ -125,13 +134,23 @@ export const Btn = styled.button`
     border-radius: 3vw/3vw;
     padding: .5vw .5vw .5vw 1vw;
     position: relative;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #F2DBF0;
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+          font-weight: bold;
+    }
 `
 export const carticon = styled.img`
     width: 1.5vw;
     margin-right: 1vw;
     position: absolute;
     z-index: 1;
-    left: .5vw;
+    left: .4vw;
+    cursor: pointer;
+   
 `
 export const Bottom = styled.div`
     display: flex;

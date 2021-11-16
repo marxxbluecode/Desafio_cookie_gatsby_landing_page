@@ -59,31 +59,67 @@ export const Icon1 = styled.img`
     margin-right: 1vw;
     width: 4vw;
     height: 5vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon2 = styled.img`
     margin-right: 1vw;
     width: 4vw;
     height: 7vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon3 = styled.img`
     margin-right: 1vw;
     width: 3vw;
     height: 4vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon4 = styled.img`
     margin-right: 1vw;
     width: 4vw;
     height: 7vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon5 = styled.img`
     margin-right: 1vw;
     width: 4vw;
     height: 2.4vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon6 = styled.img`
     margin-right: 1vw;
     width: 4vw;
     height: 3vh;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Mailbox= styled.div`
     display: flex;
@@ -104,6 +140,8 @@ export const Btn = styled.button`
     border: none;
     outline: none;
     color: #fff;
+    cursor: pointer;
+    
 `
 export const Iconsection3 = styled.div`
     display: flex;
@@ -118,26 +156,56 @@ export const Iconsection3 = styled.div`
 export const Icon7 = styled.img`
     width: 2vw;
     margin: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon8 = styled.img`
     width: 1.2vw;
     height: 3.8vh;
     margin: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon9 = styled.img`
     width: 2vw;
     height: 4vh;
     margin: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon10 = styled.img`
     width: 2.5vw;
     height: 3.5vh;
     margin: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const Icon11 = styled.img`
     width: 2.4vw;
     height: 4vh;
     margin: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.2);
+          transition: all 0.3s ease 0s;
+          animation: 5s ease 0s 1 normal none running fdBcwW;
+    }
 `
 export const div = styled.div`
     width: 3vh;
